@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mac</title>
+        <link rel="stylesheet" href="./output.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link rel="shortcut icon" href="../img/logomac.png" type="image/x-icon">
+    </head>
+    <body>
+        <div
+            class="min-w-full flex-col min-h-full h-5xl bg-cover bg-no-repeat flex"
+            style="background-image: url('../img/nordwood-themes-kRNZiGKtz48-unsplash.jpg');">
+            <header
+                class="flex w-full gap-10 items-center flex-col md:flex-row md:justify-between md:pr-10 ">
+                <a href="https://www.apple.com/la/mac/" class=" md:pl-5 pt-5 ">
+                    <img src="../img/logomac.png" alt="logo de las mac"
+                        class="rounded-3xl w-40  ">
+                </a>
+
+                <nav class>
+                    <ul
+                        class="flex bg-white rounded p-5 md:bg-transparent gap-5 md:flex-row gap-10 content-center">
+                        <li class="hover:text-orange-500"><a
+                                href="index.html"
+                                class="font-bold text-sm md:text-xl">Home</a></li>
+                        <li class="hover:text-orange-500"><a
+                                href="support.html"
+                                class="font-bold text-sm  md:text-xl">Support</a></li>
+                        <li class="hover:text-orange-500 text-orange-500"><a
+                                href="accounts.html"
+                                class="font-bold text-sm underline  md:text-xl">Accounts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class=" flex justify-center  text-xl  bg-white md:bg-transparent p-5 mt-10">
+                <h1 class="">Please select deploy to show all users who have given <span class="font-bold text-orange-500 text-2xl">their approval and have stayed with us</span> </h1>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center my-20 p-0 md:p-5" id="data-table">
+                <table class="shadow-lg bg-white border-collapse rounded-xl bg-black text-orange-500"id="html-data-table">
+                    <tr>
+                      <th class="bg-blue-100 border text-left px-10 py-4 ">Complete</th>
+                      <th class="bg-blue-100 border text-left px-10 py-4">Id</th>
+                      <th class="bg-blue-100 border text-left px-10 py-4">Email</th>
+                      <th class="bg-blue-100 border text-left px-10 py-4">UserId</th>
+
+                    </tr>
+                    <!-- Más filas según sea necesario -->
+                   </table>
+            </div>
+            
+            <div class=" flex justify-center gap-7 mb-10 my-40" >
+                <button id="click" class="bg-orange-500 w-40 text-white rounded hover:bg-orange-700">Deploy</button>
+
+            </div>
+            <footer class="flex justify-center mb-10">
+                <h1 class="font-semibold text-xl">Thanks for all!</h1>
+              </footer>
+        </div>
+        
+        <script src="./index.js"></script>
+
+    </body>
+</html>
