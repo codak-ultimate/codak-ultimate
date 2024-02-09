@@ -1,0 +1,4 @@
+.overlay {
+    backdrop-filter: blur(15px);
+    background: rgb(133, 74, 164);
+   }
