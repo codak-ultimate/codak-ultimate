@@ -1,0 +1,1 @@
+My name is Javier Ernesto Valladares Alonso. I currently manage front-end technologies such as HTML, CSS, JavaScript, Sass, React.js, Next.js, TypeScript, Redux-Toolkit, and Tailwind. Additionally, I have used Serverless Firebase to work with a server and Netlify for deploying some applications.
